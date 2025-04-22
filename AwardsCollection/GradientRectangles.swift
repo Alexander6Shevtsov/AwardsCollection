@@ -31,9 +31,9 @@ struct GradientRectangles: View {
                 
                 Image(systemName: "airplane")
                     .resizable() // сбрасываем размеры
-                    .rotationEffect(.degrees(-90))
+                    .rotationEffect(.degrees(-90)) // поворачиваем
                     .opacity(0.5) // прозрачность
-                    .scaleEffect(0.7) 
+                    .scaleEffect(0.7) // размер с коэфф
             }
         }
     }

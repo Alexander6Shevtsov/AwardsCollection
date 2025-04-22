@@ -9,10 +9,13 @@ import SwiftUI
 
 struct PathView: View {
     var body: some View {
-        Text("Path View")
+        Path { path in
+            
+        }
     }
 }
 
 #Preview {
     PathView()
+        .frame(width: 200, height: 200)
 }
