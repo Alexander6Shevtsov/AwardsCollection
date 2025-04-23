@@ -31,11 +31,17 @@ struct PathView: View {
             }
             .stroke( // проявляем линию
                 Color.white,
-                style: StrokeStyle(
-                    lineWidth: 3,
-                    dash: [size / nearLine]
+                style: StrokeStyle( // стиль линии
+                    lineWidth: 3, // толщина
+                    dash: [size / nearLine] // дефис
                 )
             )
+            
+            Image(systemName: "car.fill")
+                .resizable()
+                .foregroundStyle(.white)
+                .scaleEffect(nearLine / 100) // задаем размер
+                .offset(x: -size / 7.25) // смещаем
         }
     }
 }
