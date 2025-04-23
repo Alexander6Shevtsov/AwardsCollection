@@ -15,6 +15,7 @@
 		42921E5F2DB3F6D1006A072D /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E5E2DB3F6D1006A072D /* GradientRectangles.swift */; };
 		42921E612DB3F732006A072D /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E602DB3F732006A072D /* PathView.swift */; };
 		42921E632DB3F76E006A072D /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E622DB3F76E006A072D /* CurvesView.swift */; };
+		42921E652DB8FD45006A072D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E642DB8FD45006A072D /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		42921E5E2DB3F6D1006A072D /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		42921E602DB3F732006A072D /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		42921E622DB3F76E006A072D /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		42921E642DB8FD45006A072D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				42921E5E2DB3F6D1006A072D /* GradientRectangles.swift */,
 				42921E602DB3F732006A072D /* PathView.swift */,
 				42921E622DB3F76E006A072D /* CurvesView.swift */,
+				42921E642DB8FD45006A072D /* MainView.swift */,
 				42921E542DB3F480006A072D /* AwardsCollectionApp.swift */,
 				42921E532DB3F480006A072D /* Assets.xcassets */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42921E5D2DB3F55E006A072D /* CartRacingView.swift in Sources */,
+				42921E652DB8FD45006A072D /* MainView.swift in Sources */,
 				42921E632DB3F76E006A072D /* CurvesView.swift in Sources */,
 				42921E612DB3F732006A072D /* PathView.swift in Sources */,
 				42921E572DB3F480006A072D /* AwardsCollectionApp.swift in Sources */,
