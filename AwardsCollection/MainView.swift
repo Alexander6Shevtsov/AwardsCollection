@@ -12,14 +12,13 @@ struct MainView: View {
     
     var body: some View {
         VStack {
-            Button(action: { awardIsShowing.toggle() }) {
+            Button(action: buttonAction) {
                 Text(awardIsShowing ? "Hide Award" : "Show Award")
                 Spacer()
                 Image(systemName: "chevron.down.square")
                     .scaleEffect(awardIsShowing ? 2 : 1) // размер иконки
                     .rotationEffect(.degrees(awardIsShowing ? 0 : 180))
-                    .animation(.default, value: awardIsShowing)
-                // без анимации тоже работает
+//            .animation(.default, value: awardIsShowing) т.к. есть buttonAction
                 
 //                HStack {
 //                    if awardIsShowing {
@@ -35,14 +34,36 @@ struct MainView: View {
             
             Spacer()
             
-            GradientRectangles()
-                .frame(width: 250, height: 250)
+            if awardIsShowing {
+                GradientRectangles()
+                    .frame(width: 250, height: 250)
+                    .transition(.leadingSlide) // наша анимация
+            } // скрытие и показ ачивок
+//                .offset(x: awardIsShowing ? 0 : -UIScreen.main.bounds.width)
+//            .animation(.default, value: awardIsShowing) т.к. есть buttonAction
             
             Spacer()
         }
         .font(.headline)
         .padding()
     }
+    
+    private func buttonAction() { // по нажатию
+        withAnimation { // все с анимацией
+            awardIsShowing.toggle()
+        }
+    }
+}
+
+extension AnyTransition { // создаем кастом анимацию для дальнейшего исп
+    static var leadingSlide: AnyTransition {
+        let insertion = AnyTransition.move(edge: .leading)
+            .combined(with: .scale) // комбинируем с другой анимацией
+        let removal = AnyTransition.move(edge: .trailing)
+            .combined(with: .scale)
+                        // появление             скрытие
+        return .asymmetric(insertion: insertion, removal: removal)
+    } // возвращаем настроенную анимацию
 }
 
 #Preview {

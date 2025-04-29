@@ -16,6 +16,7 @@
 		42921E612DB3F732006A072D /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E602DB3F732006A072D /* PathView.swift */; };
 		42921E632DB3F76E006A072D /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E622DB3F76E006A072D /* CurvesView.swift */; };
 		42921E652DB8FD45006A072D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E642DB8FD45006A072D /* MainView.swift */; };
+		42921E672DBFED1C006A072D /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E662DBFED1C006A072D /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		42921E602DB3F732006A072D /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		42921E622DB3F76E006A072D /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 		42921E642DB8FD45006A072D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		42921E662DBFED1C006A072D /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,8 @@
 		42921E562DB3F480006A072D /* AwardsCollection */ = {
 			isa = PBXGroup;
 			children = (
+				42921E542DB3F480006A072D /* AwardsCollectionApp.swift */,
+				42921E662DBFED1C006A072D /* StarterView.swift */,
 				42921E552DB3F480006A072D /* ContentView.swift */,
 				42921E5A2DB3F4C1006A072D /* AwardsView.swift */,
 				42921E5C2DB3F55E006A072D /* CartRacingView.swift */,
@@ -68,7 +72,6 @@
 				42921E602DB3F732006A072D /* PathView.swift */,
 				42921E622DB3F76E006A072D /* CurvesView.swift */,
 				42921E642DB8FD45006A072D /* MainView.swift */,
-				42921E542DB3F480006A072D /* AwardsCollectionApp.swift */,
 				42921E532DB3F480006A072D /* Assets.xcassets */,
 			);
 			path = AwardsCollection;
@@ -151,6 +154,7 @@
 				42921E632DB3F76E006A072D /* CurvesView.swift in Sources */,
 				42921E612DB3F732006A072D /* PathView.swift in Sources */,
 				42921E572DB3F480006A072D /* AwardsCollectionApp.swift in Sources */,
+				42921E672DBFED1C006A072D /* StarterView.swift in Sources */,
 				42921E582DB3F480006A072D /* ContentView.swift in Sources */,
 				42921E5B2DB3F4C1006A072D /* AwardsView.swift in Sources */,
 				42921E5F2DB3F6D1006A072D /* GradientRectangles.swift in Sources */,
