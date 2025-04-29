@@ -64,17 +64,13 @@ struct CartRacingView: View {
         .onTapGesture { // тап по экрану
             start.toggle()
         }
+        .padding()
     }
 }
 
 #Preview(traits: .landscapeLeft) {
     CartRacingView()
 }
-
-
-
-
-
 
 struct CartView: View {
     let start: Bool
