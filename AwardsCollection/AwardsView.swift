@@ -18,6 +18,7 @@ struct AwardsView: View {
                         .frame(width: 200, height: 200)
                     CurvesView()
                         .frame(width: 200, height: 200)
+                    HypocycloidView(width: 200, height: 200, showSliders: false)
                 }
             }
             .navigationTitle("Awards")

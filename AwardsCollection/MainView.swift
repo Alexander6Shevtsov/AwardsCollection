@@ -35,8 +35,7 @@ struct MainView: View {
             Spacer()
             
             if awardIsShowing {
-                GradientRectangles()
-                    .frame(width: 250, height: 250)
+                HypocycloidView(width: 250, height: 250, showSliders: true)
                     .transition(.leadingSlide) // наша анимация
             } // скрытие и показ ачивок
 //                .offset(x: awardIsShowing ? 0 : -UIScreen.main.bounds.width)
