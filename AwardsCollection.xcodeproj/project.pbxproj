@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42921E572DB3F480006A072D /* AwardsCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E542DB3F480006A072D /* AwardsCollectionApp.swift */; };
-		42921E582DB3F480006A072D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E552DB3F480006A072D /* ContentView.swift */; };
+		42921E582DB3F480006A072D /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E552DB3F480006A072D /* HypocycloidView.swift */; };
 		42921E592DB3F480006A072D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42921E532DB3F480006A072D /* Assets.xcassets */; };
 		42921E5B2DB3F4C1006A072D /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E5A2DB3F4C1006A072D /* AwardsView.swift */; };
 		42921E5D2DB3F55E006A072D /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E5C2DB3F55E006A072D /* CartRacingView.swift */; };
@@ -17,13 +17,14 @@
 		42921E632DB3F76E006A072D /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E622DB3F76E006A072D /* CurvesView.swift */; };
 		42921E652DB8FD45006A072D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E642DB8FD45006A072D /* MainView.swift */; };
 		42921E672DBFED1C006A072D /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E662DBFED1C006A072D /* StarterView.swift */; };
+		42921E6A2DC28273006A072D /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E692DC28273006A072D /* Award.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42921E452DB3F461006A072D /* AwardsCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42921E532DB3F480006A072D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42921E542DB3F480006A072D /* AwardsCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionApp.swift; sourceTree = "<group>"; };
-		42921E552DB3F480006A072D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42921E552DB3F480006A072D /* HypocycloidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
 		42921E5A2DB3F4C1006A072D /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		42921E5C2DB3F55E006A072D /* CartRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
 		42921E5E2DB3F6D1006A072D /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
@@ -31,6 +32,7 @@
 		42921E622DB3F76E006A072D /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 		42921E642DB8FD45006A072D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		42921E662DBFED1C006A072D /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		42921E692DC28273006A072D /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +70,22 @@
 				42921E642DB8FD45006A072D /* MainView.swift */,
 				42921E5C2DB3F55E006A072D /* CartRacingView.swift */,
 				42921E5A2DB3F4C1006A072D /* AwardsView.swift */,
-				42921E5E2DB3F6D1006A072D /* GradientRectangles.swift */,
-				42921E602DB3F732006A072D /* PathView.swift */,
-				42921E622DB3F76E006A072D /* CurvesView.swift */,
-				42921E552DB3F480006A072D /* ContentView.swift */,
+				42921E682DC28254006A072D /* Awards */,
 				42921E532DB3F480006A072D /* Assets.xcassets */,
 			);
 			path = AwardsCollection;
+			sourceTree = "<group>";
+		};
+		42921E682DC28254006A072D /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				42921E5E2DB3F6D1006A072D /* GradientRectangles.swift */,
+				42921E602DB3F732006A072D /* PathView.swift */,
+				42921E622DB3F76E006A072D /* CurvesView.swift */,
+				42921E552DB3F480006A072D /* HypocycloidView.swift */,
+				42921E692DC28273006A072D /* Award.swift */,
+			);
+			path = Awards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +163,11 @@
 				42921E5D2DB3F55E006A072D /* CartRacingView.swift in Sources */,
 				42921E652DB8FD45006A072D /* MainView.swift in Sources */,
 				42921E632DB3F76E006A072D /* CurvesView.swift in Sources */,
+				42921E6A2DC28273006A072D /* Award.swift in Sources */,
 				42921E612DB3F732006A072D /* PathView.swift in Sources */,
 				42921E572DB3F480006A072D /* AwardsCollectionApp.swift in Sources */,
 				42921E672DBFED1C006A072D /* StarterView.swift in Sources */,
-				42921E582DB3F480006A072D /* ContentView.swift in Sources */,
+				42921E582DB3F480006A072D /* HypocycloidView.swift in Sources */,
 				42921E5B2DB3F4C1006A072D /* AwardsView.swift in Sources */,
 				42921E5F2DB3F6D1006A072D /* GradientRectangles.swift in Sources */,
 			);
