@@ -18,6 +18,8 @@
 		42921E652DB8FD45006A072D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E642DB8FD45006A072D /* MainView.swift */; };
 		42921E672DBFED1C006A072D /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E662DBFED1C006A072D /* StarterView.swift */; };
 		42921E6A2DC28273006A072D /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E692DC28273006A072D /* Award.swift */; };
+		42921E6C2DC3D7C8006A072D /* AnimationOfStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */; };
+		42921E6E2DC3D846006A072D /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6D2DC3D846006A072D /* StarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		42921E642DB8FD45006A072D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		42921E662DBFED1C006A072D /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		42921E692DC28273006A072D /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOfStar.swift; sourceTree = "<group>"; };
+		42921E6D2DC3D846006A072D /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 				42921E642DB8FD45006A072D /* MainView.swift */,
 				42921E5C2DB3F55E006A072D /* CartRacingView.swift */,
 				42921E5A2DB3F4C1006A072D /* AwardsView.swift */,
+				42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */,
 				42921E682DC28254006A072D /* Awards */,
 				42921E532DB3F480006A072D /* Assets.xcassets */,
 			);
@@ -84,6 +89,7 @@
 				42921E622DB3F76E006A072D /* CurvesView.swift */,
 				42921E552DB3F480006A072D /* HypocycloidView.swift */,
 				42921E692DC28273006A072D /* Award.swift */,
+				42921E6D2DC3D846006A072D /* StarView.swift */,
 			);
 			path = Awards;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 				42921E6A2DC28273006A072D /* Award.swift in Sources */,
 				42921E612DB3F732006A072D /* PathView.swift in Sources */,
 				42921E572DB3F480006A072D /* AwardsCollectionApp.swift in Sources */,
+				42921E6E2DC3D846006A072D /* StarView.swift in Sources */,
 				42921E672DBFED1C006A072D /* StarterView.swift in Sources */,
+				42921E6C2DC3D7C8006A072D /* AnimationOfStar.swift in Sources */,
 				42921E582DB3F480006A072D /* HypocycloidView.swift in Sources */,
 				42921E5B2DB3F4C1006A072D /* AwardsView.swift in Sources */,
 				42921E5F2DB3F6D1006A072D /* GradientRectangles.swift in Sources */,
