@@ -18,28 +18,29 @@ struct MainView: View {
                 Image(systemName: "chevron.down.square")
                     .scaleEffect(awardIsShowing ? 2 : 1) // размер иконки
                     .rotationEffect(.degrees(awardIsShowing ? 0 : 180))
-//            .animation(.default, value: awardIsShowing) т.к. есть buttonAction
+                //            .animation(.default, value: awardIsShowing) т.к. есть buttonAction
                 
-//                HStack {
-//                    if awardIsShowing {
-//                        Text("Hide Award")
-//                        Image(systemName: "chevron.up.square")
-//                    } else {
-//                        Text("Show Award")
-//                        Image(systemName: "chevron.down.square")
-//                    }
-//                }
+                //                HStack {
+                //                    if awardIsShowing {
+                //                        Text("Hide Award")
+                //                        Image(systemName: "chevron.up.square")
+                //                    } else {
+                //                        Text("Show Award")
+                //                        Image(systemName: "chevron.down.square")
+                //                    }
+                //                }
                 
             }
             
             Spacer()
             
             if awardIsShowing {
-                HypocycloidView(width: 250, height: 250, showSliders: true)
-                    .transition(.leadingSlide) // наша анимация
+                StarView(colors: [.red, .green], colorLine: .yellow)
+                    .frame(width: 200, height: 200)
+                    .transition(.leadingSlide) // кастом анимация
             } // скрытие и показ ачивок
-//                .offset(x: awardIsShowing ? 0 : -UIScreen.main.bounds.width)
-//            .animation(.default, value: awardIsShowing) т.к. есть buttonAction
+            //                .offset(x: awardIsShowing ? 0 : -UIScreen.main.bounds.width)
+            //            .animation(.default, value: awardIsShowing) т.к. есть buttonAction
             
             Spacer()
         }
@@ -60,7 +61,7 @@ extension AnyTransition { // создаем кастом анимацию для
             .combined(with: .scale) // комбинируем с другой анимацией
         let removal = AnyTransition.move(edge: .trailing)
             .combined(with: .scale)
-                        // появление             скрытие
+        // появление             скрытие
         return .asymmetric(insertion: insertion, removal: removal)
     } // возвращаем настроенную анимацию
 }

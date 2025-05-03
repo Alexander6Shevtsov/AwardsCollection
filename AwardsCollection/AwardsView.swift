@@ -19,6 +19,8 @@ struct AwardsView: View {
                     CurvesView()
                         .frame(width: 200, height: 200)
                     HypocycloidView(width: 200, height: 200, showSliders: false)
+                    StarView(colors: [.red, .green], colorLine: .yellow)
+                        .frame(width: 200, height: 200)
                 }
             }
             .navigationTitle("Awards")
