@@ -23,6 +23,7 @@
 		42921E702DC6A761006A072D /* DuckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6F2DC6A761006A072D /* DuckView.swift */; };
 		42921E722DC6A77E006A072D /* AnimationForDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E712DC6A77E006A072D /* AnimationForDuck.swift */; };
 		42921E782DC7AB0A006A072D /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 42921E772DC7AB0A006A072D /* ConfettiSwiftUI */; };
+		42921E7A2DC7AC68006A072D /* BallsAnimationForGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		42921E6D2DC3D846006A072D /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
 		42921E6F2DC6A761006A072D /* DuckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckView.swift; sourceTree = "<group>"; };
 		42921E712DC6A77E006A072D /* AnimationForDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationForDuck.swift; sourceTree = "<group>"; };
+		42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallsAnimationForGift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */,
 				42921E712DC6A77E006A072D /* AnimationForDuck.swift */,
+				42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */,
 			);
 			path = AnimationForAwards;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				42921E672DBFED1C006A072D /* StarterView.swift in Sources */,
 				42921E6C2DC3D7C8006A072D /* AnimationOfStar.swift in Sources */,
 				42921E702DC6A761006A072D /* DuckView.swift in Sources */,
+				42921E7A2DC7AC68006A072D /* BallsAnimationForGift.swift in Sources */,
 				42921E582DB3F480006A072D /* HypocycloidView.swift in Sources */,
 				42921E5B2DB3F4C1006A072D /* AwardsView.swift in Sources */,
 				42921E5F2DB3F6D1006A072D /* GradientRectangles.swift in Sources */,
