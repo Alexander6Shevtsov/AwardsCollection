@@ -24,6 +24,7 @@
 		42921E722DC6A77E006A072D /* AnimationForDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E712DC6A77E006A072D /* AnimationForDuck.swift */; };
 		42921E782DC7AB0A006A072D /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 42921E772DC7AB0A006A072D /* ConfettiSwiftUI */; };
 		42921E7A2DC7AC68006A072D /* BallsAnimationForGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */; };
+		42921E7C2DC7B39E006A072D /* PlaceholderForGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E7B2DC7B39E006A072D /* PlaceholderForGift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		42921E6F2DC6A761006A072D /* DuckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckView.swift; sourceTree = "<group>"; };
 		42921E712DC6A77E006A072D /* AnimationForDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationForDuck.swift; sourceTree = "<group>"; };
 		42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallsAnimationForGift.swift; sourceTree = "<group>"; };
+		42921E7B2DC7B39E006A072D /* PlaceholderForGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForGift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */,
 				42921E712DC6A77E006A072D /* AnimationForDuck.swift */,
 				42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */,
+				42921E7B2DC7B39E006A072D /* PlaceholderForGift.swift */,
 			);
 			path = AnimationForAwards;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				42921E612DB3F732006A072D /* PathView.swift in Sources */,
 				42921E722DC6A77E006A072D /* AnimationForDuck.swift in Sources */,
 				42921E572DB3F480006A072D /* AwardsCollectionApp.swift in Sources */,
+				42921E7C2DC7B39E006A072D /* PlaceholderForGift.swift in Sources */,
 				42921E6E2DC3D846006A072D /* StarView.swift in Sources */,
 				42921E672DBFED1C006A072D /* StarterView.swift in Sources */,
 				42921E6C2DC3D7C8006A072D /* AnimationOfStar.swift in Sources */,
