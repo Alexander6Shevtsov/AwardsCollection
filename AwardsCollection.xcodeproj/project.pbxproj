@@ -22,6 +22,7 @@
 		42921E6E2DC3D846006A072D /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6D2DC3D846006A072D /* StarView.swift */; };
 		42921E702DC6A761006A072D /* DuckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6F2DC6A761006A072D /* DuckView.swift */; };
 		42921E722DC6A77E006A072D /* AnimationForDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E712DC6A77E006A072D /* AnimationForDuck.swift */; };
+		42921E782DC7AB0A006A072D /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 42921E772DC7AB0A006A072D /* ConfettiSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42921E782DC7AB0A006A072D /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +80,9 @@
 				42921E642DB8FD45006A072D /* MainView.swift */,
 				42921E5C2DB3F55E006A072D /* CartRacingView.swift */,
 				42921E5A2DB3F4C1006A072D /* AwardsView.swift */,
-				42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */,
+				42921E692DC28273006A072D /* Award.swift */,
 				42921E682DC28254006A072D /* Awards */,
+				42921E752DC79F47006A072D /* AnimationForAwards */,
 				42921E532DB3F480006A072D /* Assets.xcassets */,
 			);
 			path = AwardsCollection;
@@ -92,12 +95,19 @@
 				42921E602DB3F732006A072D /* PathView.swift */,
 				42921E622DB3F76E006A072D /* CurvesView.swift */,
 				42921E552DB3F480006A072D /* HypocycloidView.swift */,
-				42921E692DC28273006A072D /* Award.swift */,
 				42921E6D2DC3D846006A072D /* StarView.swift */,
 				42921E6F2DC6A761006A072D /* DuckView.swift */,
-				42921E712DC6A77E006A072D /* AnimationForDuck.swift */,
 			);
 			path = Awards;
+			sourceTree = "<group>";
+		};
+		42921E752DC79F47006A072D /* AnimationForAwards */ = {
+			isa = PBXGroup;
+			children = (
+				42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */,
+				42921E712DC6A77E006A072D /* AnimationForDuck.swift */,
+			);
+			path = AnimationForAwards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +127,7 @@
 			);
 			name = AwardsCollection;
 			packageProductDependencies = (
+				42921E772DC7AB0A006A072D /* ConfettiSwiftUI */,
 			);
 			productName = AwardsCollection;
 			productReference = 42921E452DB3F461006A072D /* AwardsCollection.app */;
@@ -146,6 +157,9 @@
 			);
 			mainGroup = 42921E3C2DB3F461006A072D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				42921E762DC7AB0A006A072D /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 42921E462DB3F461006A072D /* Products */;
 			projectDirPath = "";
@@ -399,6 +413,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42921E762DC7AB0A006A072D /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42921E772DC7AB0A006A072D /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42921E762DC7AB0A006A072D /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42921E3D2DB3F461006A072D /* Project object */;
 }
