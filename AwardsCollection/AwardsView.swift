@@ -21,8 +21,9 @@ struct AwardsView: View {
                     HypocycloidView(width: 200, height: 200, showSliders: false)
                     StarView(colors: [.red, .green], colorLine: .yellow)
                         .frame(width: 200, height: 200)
-                    DuckView()
+                    AnimationForDuck()
                         .frame(width: 200, height: 200)
+                    LogoForGift(size: 200, achievementIsUnlocked: .constant(true))
                 }
             }
             .navigationTitle("Awards")

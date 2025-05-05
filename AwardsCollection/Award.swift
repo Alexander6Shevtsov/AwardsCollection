@@ -40,8 +40,13 @@ struct Award {
                 awarded: true
             ),
             Award(
-                awardView: AnyView(DuckView().frame(width: 160, height: 160)),
+                awardView: AnyView(AnimationForDuck().frame(width: 160, height: 160)),
                 title: "Duck View",
+                awarded: true
+            ),
+            Award(
+                awardView: AnyView(LogoForGift(size: 160, achievementIsUnlocked: .constant(true))),
+                title: "Gift View",
                 awarded: true
             )
         ]

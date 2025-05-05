@@ -35,8 +35,8 @@ struct MainView: View {
             Spacer()
             
             if awardIsShowing {
-                StarView(colors: [.red, .green], colorLine: .yellow)
-                    .frame(width: 200, height: 200)
+                GiftView()
+                    .frame(width: 360, height: 360)
                     .transition(.leadingSlide) // кастом анимация
             } // скрытие и показ ачивок
             //                .offset(x: awardIsShowing ? 0 : -UIScreen.main.bounds.width)

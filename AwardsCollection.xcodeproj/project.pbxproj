@@ -20,12 +20,13 @@
 		42921E6A2DC28273006A072D /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E692DC28273006A072D /* Award.swift */; };
 		42921E6C2DC3D7C8006A072D /* AnimationOfStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */; };
 		42921E6E2DC3D846006A072D /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6D2DC3D846006A072D /* StarView.swift */; };
-		42921E702DC6A761006A072D /* DuckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6F2DC6A761006A072D /* DuckView.swift */; };
-		42921E722DC6A77E006A072D /* AnimationForDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E712DC6A77E006A072D /* AnimationForDuck.swift */; };
+		42921E702DC6A761006A072D /* AnimationForDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E6F2DC6A761006A072D /* AnimationForDuck.swift */; };
+		42921E722DC6A77E006A072D /* DuckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E712DC6A77E006A072D /* DuckView.swift */; };
 		42921E782DC7AB0A006A072D /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 42921E772DC7AB0A006A072D /* ConfettiSwiftUI */; };
 		42921E7A2DC7AC68006A072D /* BallsAnimationForGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */; };
 		42921E7C2DC7B39E006A072D /* PlaceholderForGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E7B2DC7B39E006A072D /* PlaceholderForGift.swift */; };
-		42921E7E2DC7B850006A072D /* GiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E7D2DC7B850006A072D /* GiftView.swift */; };
+		42921E7E2DC7B850006A072D /* LogoForGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E7D2DC7B850006A072D /* LogoForGift.swift */; };
+		42921E802DC92571006A072D /* GiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E7F2DC92571006A072D /* GiftView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,11 +44,12 @@
 		42921E692DC28273006A072D /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOfStar.swift; sourceTree = "<group>"; };
 		42921E6D2DC3D846006A072D /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
-		42921E6F2DC6A761006A072D /* DuckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckView.swift; sourceTree = "<group>"; };
-		42921E712DC6A77E006A072D /* AnimationForDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationForDuck.swift; sourceTree = "<group>"; };
+		42921E6F2DC6A761006A072D /* AnimationForDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationForDuck.swift; sourceTree = "<group>"; };
+		42921E712DC6A77E006A072D /* DuckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckView.swift; sourceTree = "<group>"; };
 		42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallsAnimationForGift.swift; sourceTree = "<group>"; };
 		42921E7B2DC7B39E006A072D /* PlaceholderForGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForGift.swift; sourceTree = "<group>"; };
-		42921E7D2DC7B850006A072D /* GiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftView.swift; sourceTree = "<group>"; };
+		42921E7D2DC7B850006A072D /* LogoForGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoForGift.swift; sourceTree = "<group>"; };
+		42921E7F2DC92571006A072D /* GiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,8 @@
 				42921E622DB3F76E006A072D /* CurvesView.swift */,
 				42921E552DB3F480006A072D /* HypocycloidView.swift */,
 				42921E6D2DC3D846006A072D /* StarView.swift */,
-				42921E6F2DC6A761006A072D /* DuckView.swift */,
-				42921E7D2DC7B850006A072D /* GiftView.swift */,
+				42921E712DC6A77E006A072D /* DuckView.swift */,
+				42921E7F2DC92571006A072D /* GiftView.swift */,
 			);
 			path = Awards;
 			sourceTree = "<group>";
@@ -112,9 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				42921E6B2DC3D7C8006A072D /* AnimationOfStar.swift */,
-				42921E712DC6A77E006A072D /* AnimationForDuck.swift */,
+				42921E6F2DC6A761006A072D /* AnimationForDuck.swift */,
 				42921E792DC7AC68006A072D /* BallsAnimationForGift.swift */,
 				42921E7B2DC7B39E006A072D /* PlaceholderForGift.swift */,
+				42921E7D2DC7B850006A072D /* LogoForGift.swift */,
 			);
 			path = AnimationForAwards;
 			sourceTree = "<group>";
@@ -195,19 +198,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42921E802DC92571006A072D /* GiftView.swift in Sources */,
 				42921E5D2DB3F55E006A072D /* CartRacingView.swift in Sources */,
 				42921E652DB8FD45006A072D /* MainView.swift in Sources */,
 				42921E632DB3F76E006A072D /* CurvesView.swift in Sources */,
 				42921E6A2DC28273006A072D /* Award.swift in Sources */,
 				42921E612DB3F732006A072D /* PathView.swift in Sources */,
-				42921E722DC6A77E006A072D /* AnimationForDuck.swift in Sources */,
+				42921E722DC6A77E006A072D /* DuckView.swift in Sources */,
 				42921E572DB3F480006A072D /* AwardsCollectionApp.swift in Sources */,
 				42921E7C2DC7B39E006A072D /* PlaceholderForGift.swift in Sources */,
-				42921E7E2DC7B850006A072D /* GiftView.swift in Sources */,
+				42921E7E2DC7B850006A072D /* LogoForGift.swift in Sources */,
 				42921E6E2DC3D846006A072D /* StarView.swift in Sources */,
 				42921E672DBFED1C006A072D /* StarterView.swift in Sources */,
 				42921E6C2DC3D7C8006A072D /* AnimationOfStar.swift in Sources */,
-				42921E702DC6A761006A072D /* DuckView.swift in Sources */,
+				42921E702DC6A761006A072D /* AnimationForDuck.swift in Sources */,
 				42921E7A2DC7AC68006A072D /* BallsAnimationForGift.swift in Sources */,
 				42921E582DB3F480006A072D /* HypocycloidView.swift in Sources */,
 				42921E5B2DB3F4C1006A072D /* AwardsView.swift in Sources */,
