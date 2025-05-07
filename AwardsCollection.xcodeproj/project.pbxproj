@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42876E8A2DCA10C40008BB67 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42876E892DCA10C40008BB67 /* CustomGridView.swift */; };
 		42921E572DB3F480006A072D /* AwardsCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E542DB3F480006A072D /* AwardsCollectionApp.swift */; };
 		42921E582DB3F480006A072D /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42921E552DB3F480006A072D /* HypocycloidView.swift */; };
 		42921E592DB3F480006A072D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42921E532DB3F480006A072D /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42876E892DCA10C40008BB67 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
 		42921E452DB3F461006A072D /* AwardsCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42921E532DB3F480006A072D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42921E542DB3F480006A072D /* AwardsCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionApp.swift; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42876E882DCA10550008BB67 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				42876E892DCA10C40008BB67 /* CustomGridView.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
 		42921E3C2DB3F461006A072D = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 				42921E5A2DB3F4C1006A072D /* AwardsView.swift */,
 				42921E692DC28273006A072D /* Award.swift */,
 				42921E682DC28254006A072D /* Awards */,
+				42876E882DCA10550008BB67 /* Grids */,
 				42921E752DC79F47006A072D /* AnimationForAwards */,
 				42921E532DB3F480006A072D /* Assets.xcassets */,
 			);
@@ -198,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42876E8A2DCA10C40008BB67 /* CustomGridView.swift in Sources */,
 				42921E802DC92571006A072D /* GiftView.swift in Sources */,
 				42921E5D2DB3F55E006A072D /* CartRacingView.swift in Sources */,
 				42921E652DB8FD45006A072D /* MainView.swift in Sources */,
